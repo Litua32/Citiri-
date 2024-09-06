@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px 0px ;
+    box-sizing: border-box;
+    background-color: #fff;
+   } 
+
+/* header styles */
+.header{
+    background-color: #fff;
+    display: flex;
+    padding: 0px 0px;
+    align-content:center ;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    top: 0px;}
+    
+    .logout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .5px;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    
+    .logout a {
+        font-size: 28px;
+        color: lightslategray;
+        text-decoration: none;
+    }
+    
+    .logout p {
+        color: lightslategray;
+        font-size: 8px;
+        font-weight: bold;
+        padding: 1px;
+        margin: 0;
+    
+     }
+    
+
+/* profile list styles  */
+
+.profile-list {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile {
+    background-color: #fff;
+    border: 1px solid lightslategray;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #000;
+}
+
+.rating {
+    background-color: #ff852f;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bio {
+    margin: 10px 0;
+    color: #000;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #000;
+}
+/* Footer Styles */
+  
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer nav ul{
+    background-color: #fff;
+    color: #fff;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer nav ul li {
+    color: lightslategray;
+    font-size: 12px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+#navicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#navicon p {
+    padding: 0px;
+    margin: 0px ;
+    font-size: 13px;
+}
+
+.navicon{
+    color: lightslategray;
+    font-size: 25px;
+}
+

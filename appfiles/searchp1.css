@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px 0px ;
+    background-color: #fff;
+}
+
+/* Header Styles */
+.header{
+background-color: #fff;
+display: flex;
+padding: 0px 0px;
+align-content:center ;
+justify-content: space-between;
+position:fixed;
+width: 100%;
+top: 0px;}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.logout a {
+    font-size: 28px;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.logout p {
+    color: lightslategray;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 1px;
+    margin: 0;
+
+ }
+
+/* ----Main---- */
+.categories{ 
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.categories ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin: auto;
+
+}
+.categories ul li{
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px lightslategray;
+    border-radius: 8px;
+    padding: 40px 50px;
+    margin: .1rem;
+    text-decoration: none;
+    text
+}
+
+.categories ul li a {
+    color: #ff852f;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+/* ----Main Nav---- */
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer nav ul{
+    background-color: #fff;
+    color: #fff;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer nav ul li {
+    color: lightslategray;
+    font-size: 12px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+#navicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#navicon p {
+    padding: 0px;
+    margin: 0px ;
+    font-size: 13px;
+}
+
+.navicon{
+    color: lightslategray;
+    font-size: 25px;
+}
+

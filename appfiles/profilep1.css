@@ -1,0 +1,92 @@
+/* General style */
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px 0px ;
+    box-sizing: border-box;
+    background-color: #fff;
+   } 
+
+/* Header Styles */
+.header{
+    background-color: #fff;
+    display: flex;
+    padding: 0px 0px;
+    align-content:center ;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    top: 0px;}
+    
+    .logout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .5px;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    
+    .logout a {
+        font-size: 28px;
+        color: lightslategray;
+        text-decoration: none;
+    }
+    
+    .logout p {
+        color: lightslategray;
+        font-size: 8px;
+        font-weight: bold;
+        padding: 1px;
+        margin: 0;
+    
+     }
+
+ /* Footer Styles */
+  
+ .footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer nav ul{
+    background-color: #fff;
+    color: #fff;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer nav ul li {
+    color: lightslategray;
+    font-size: 12px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+#navicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#navicon p {
+    padding: 0px;
+    margin: 0px ;
+    font-size: 13px;
+}
+
+.navicon{
+    color: lightslategray;
+    font-size: 25px;
+}
